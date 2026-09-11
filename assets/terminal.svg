@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 226" fill="none" role="img" aria-label="Terminal window">
+  <style>
+    .terminal-text {
+      font-family: 'SF Mono', SFMono-Regular, Menlo, monospace;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .show-login {
+      animation: show 0s 0.2s forwards;
+    }
+
+    .show-prompt {
+      animation: show 0s 0.3s forwards;
+    }
+
+    .show-about {
+      animation: show 0s 3s forwards;
+    }
+
+    .show-next-prompt {
+      animation: show 0s 3.1s forwards;
+    }
+
+    .second-line-reveal {
+      width: 0;
+      animation: typing 1s steps(21, end) 1s forwards;
+    }
+
+    .cursor {
+      animation:
+        show 0s 0.5s forwards,
+        cursor-reveal-second-line 1s steps(21, end) 1s forwards,
+        hide 0s 3s forwards,
+        cursor-move-seventh-line 0s 3.1s forwards,
+        show-next-cursor 0s 3.1s forwards,
+        blink 1s step-end 2.5s infinite;
+    }
+
+    @keyframes show {
+      to { visibility: visible; }
+    }
+
+    @keyframes hide {
+      to { visibility: hidden; }
+    }
+
+    @keyframes show-next-cursor {
+      to { visibility: visible; }
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 151.2px; }
+    }
+
+    @keyframes cursor-reveal-second-line {
+      from { x: 274.4px; }
+      to { x: 425.6px; }
+    }
+
+    @keyframes cursor-move-seventh-line {
+      from { x: 425.6px; y: 54px; }
+      to { x: 274.4px; y: 134px; }
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <defs>
+    <clipPath id="terminal-window-clip">
+      <rect width="800" height="226" rx="12"/>
+    </clipPath>
+
+    <clipPath id="typing-clip" clipPathUnits="userSpaceOnUse">
+      <rect class="second-line-reveal"
+            x="274.4" y="50" width="0" height="22"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#terminal-window-clip)">
+    <rect width="800" height="226" fill="#15171B"/>
+    <rect width="800" height="30" fill="#22252B"/>
+    <path d="M0 30H800" stroke="#343840"/>
+
+    <circle cx="15" cy="15" r="7" fill="#FF5F57"/>
+    <circle cx="15" cy="15" r="2.5" fill="#86241D"/>
+    <circle cx="39" cy="15" r="7" fill="#FEBC2E"/>
+    <circle cx="63" cy="15" r="7" fill="#28C840"/>
+
+    <text x="84" y="20" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="700" fill="#B8BDC7">0xdea110c8 — -zsh — 109×12</text>
+
+    <text class="terminal-text show-login" x="8" y="50" textLength="319.2" lengthAdjust="spacingAndGlyphs" visibility="hidden" fill="#E3E6EC" xml:space="preserve">Last login: Wed Sep 09 18:32:02 on ttys001</text>
+
+    <text class="terminal-text show-prompt" x="8" y="66" textLength="274.4" lengthAdjust="spacingAndGlyphs" visibility="hidden" xml:space="preserve"><tspan fill="#BBB33C">09/09/2026 18:32 </tspan><tspan fill="#37ADB7">0xdea110c8 </tspan><tspan fill="#C5C5C5">~ </tspan><tspan fill="#E65432">main </tspan><tspan fill="#37ADB7">% </tspan></text>
+
+    <g clip-path="url(#typing-clip)">
+      <text class="terminal-text" x="274.4" y="66" textLength="151.2" lengthAdjust="spacingAndGlyphs" fill="#E3E6EC" xml:space="preserve">cat Desktop/about.txt</text>
+    </g>
+
+    <rect class="cursor" x="274.4" y="54" width="7.2" height="15" fill="#680900" visibility="hidden"/>
+
+    <g class="show-about" visibility="hidden" fill="#E3E6EC">
+      <text class="terminal-text" x="8" y="82" textLength="676.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">I'm a Senior iOS Engineer with 5+ years of experience building native applications with Swift.</text>
+
+      <text class="terminal-text" x="8" y="98" textLength="712.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">I own features end-to-end — from understanding the product problem and shaping a technical solution</text>
+
+      <text class="terminal-text" x="8" y="114" textLength="324" lengthAdjust="spacingAndGlyphs" xml:space="preserve">to shipping and maintaining it in production.</text>
+
+      <text class="terminal-text" x="8" y="130" textLength="655.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Outside of iOS, I spend a lot of time having fun with pet projects, self-hosting and Linux.</text>
+    </g>
+
+    <text class="terminal-text show-next-prompt" x="8" y="146" textLength="274.4" lengthAdjust="spacingAndGlyphs" visibility="hidden" xml:space="preserve"><tspan fill="#BBB33C">09/09/2026 18:32 </tspan><tspan fill="#37ADB7">0xdea110c8 </tspan><tspan fill="#C5C5C5">~ </tspan><tspan fill="#E65432">main </tspan><tspan fill="#37ADB7">% </tspan></text>
+  </g>
+</svg>
