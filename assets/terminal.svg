@@ -93,26 +93,26 @@
 
     <text x="84" y="20" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="700" fill="#B8BDC7">0xdea110c8 — -zsh — 109×12</text>
 
-    <text class="terminal-text show-login" x="8" y="50" textLength="319.2" lengthAdjust="spacingAndGlyphs" visibility="hidden" fill="#E3E6EC" xml:space="preserve">Last login: Wed Sep 09 18:32:02 on ttys001</text>
+    <text class="terminal-text show-login" x="8" y="50" lengthAdjust="spacingAndGlyphs" visibility="hidden" fill="#E3E6EC" xml:space="preserve">Last login: Wed Sep 09 18:32:02 on ttys001</text>
 
-    <text class="terminal-text show-prompt" x="8" y="66" textLength="274.4" lengthAdjust="spacingAndGlyphs" visibility="hidden" xml:space="preserve"><tspan fill="#BBB33C">09/09/2026 18:32 </tspan><tspan fill="#37ADB7">0xdea110c8 </tspan><tspan fill="#C5C5C5">~ </tspan><tspan fill="#E65432">main </tspan><tspan fill="#37ADB7">% </tspan></text>
+    <text class="terminal-text show-prompt" x="8" y="66" lengthAdjust="spacingAndGlyphs" visibility="hidden" xml:space="preserve"><tspan fill="#BBB33C">09/09/2026 18:32 </tspan><tspan fill="#37ADB7">0xdea110c8 </tspan><tspan fill="#C5C5C5">~ </tspan><tspan fill="#E65432">main </tspan><tspan fill="#37ADB7">% </tspan></text>
 
     <g clip-path="url(#typing-clip)">
-      <text class="terminal-text" x="274.4" y="66" textLength="151.2" lengthAdjust="spacingAndGlyphs" fill="#E3E6EC" xml:space="preserve">cat Desktop/about.txt</text>
+      <text class="terminal-text" x="274.4" y="66" lengthAdjust="spacingAndGlyphs" fill="#E3E6EC" xml:space="preserve">cat Desktop/about.txt</text>
     </g>
 
     <rect class="cursor" x="274.4" y="54" width="7.2" height="15" fill="#680900" visibility="hidden"/>
 
     <g class="show-about" visibility="hidden" fill="#E3E6EC">
-      <text class="terminal-text" x="8" y="82" textLength="676.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">I'm a Senior iOS Engineer with 5+ years of experience building native applications with Swift.</text>
+      <text class="terminal-text" x="8" y="82" lengthAdjust="spacingAndGlyphs" xml:space="preserve">I'm a Senior iOS Engineer with 5+ years of experience building native applications with Swift.</text>
 
-      <text class="terminal-text" x="8" y="98" textLength="712.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">I own features end-to-end — from understanding the product problem and shaping a technical solution</text>
+      <text class="terminal-text" x="8" y="98" lengthAdjust="spacingAndGlyphs" xml:space="preserve">I own features end-to-end — from understanding the product problem and shaping a technical solution</text>
 
-      <text class="terminal-text" x="8" y="114" textLength="324" lengthAdjust="spacingAndGlyphs" xml:space="preserve">to shipping and maintaining it in production.</text>
+      <text class="terminal-text" x="8" y="114" lengthAdjust="spacingAndGlyphs" xml:space="preserve">to shipping and maintaining it in production.</text>
 
-      <text class="terminal-text" x="8" y="130" textLength="655.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Outside of iOS, I spend a lot of time having fun with pet projects, self-hosting and Linux.</text>
+      <text class="terminal-text" x="8" y="130" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Outside of iOS, I spend a lot of time having fun with pet projects, self-hosting and Linux.</text>
     </g>
 
-    <text class="terminal-text show-next-prompt" x="8" y="146" textLength="274.4" lengthAdjust="spacingAndGlyphs" visibility="hidden" xml:space="preserve"><tspan fill="#BBB33C">09/09/2026 18:32 </tspan><tspan fill="#37ADB7">0xdea110c8 </tspan><tspan fill="#C5C5C5">~ </tspan><tspan fill="#E65432">main </tspan><tspan fill="#37ADB7">% </tspan></text>
+    <text class="terminal-text show-next-prompt" x="8" y="146" lengthAdjust="spacingAndGlyphs" visibility="hidden" xml:space="preserve"><tspan fill="#BBB33C">09/09/2026 18:32 </tspan><tspan fill="#37ADB7">0xdea110c8 </tspan><tspan fill="#C5C5C5">~ </tspan><tspan fill="#E65432">main </tspan><tspan fill="#37ADB7">% </tspan></text>
   </g>
 </svg>
